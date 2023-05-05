@@ -2,9 +2,9 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/Captura2.PNG";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/Captura4.png";
 import projImg4 from "../assets/img/Captura3.PNG";
-import projImg5 from "../assets/img/Captura4.png";
+import projImg5 from "../assets/img/ChatApp.png";
 import projImg from "../assets/img/Captura.PNG";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -43,8 +43,8 @@ export const Projects = () => {
       linkUrl:"https://github.com/Edwinn7/ChatApp"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Web de películas y programas de televisión.",
+      description: "Página web que consume la API TMDB Desarrollada con React y Redux",
       imgUrl: projImg3,
     },
   ];
