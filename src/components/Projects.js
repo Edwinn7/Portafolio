@@ -14,7 +14,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Aplicación del tiempo",
-      description:"Programa que muestra la información meteorológica y la hora de la ubicación solicitada. (Click en ver para ver en vivo)",
+      description:"Programa que muestra la información meteorológica y la hora de la ubicación solicitada. (Click para ver en vivo)",
       imgUrl: projImg1,
       linkUrl:"https://app-meteorologica-5e217.web.app/"
     },
@@ -32,7 +32,7 @@ export const Projects = () => {
     },
     {
       title: "Aplicación de noticias",
-      description: "Aplicación simple de noticias, permite ver y buscar las últimas noticias relevantes. (Click en ver para ver en vivo)",
+      description: "Aplicación simple de noticias, permite ver y buscar las últimas noticias relevantes. (Click para ver en vivo)",
       imgUrl: projImg4,
       linkUrl:"https://appetize.io/app/fxf5dboitmzcya6huntvb3i57a?device=pixel4&osVersion=11.0&scale=75"
     },
@@ -50,7 +50,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project" id="projectos">
       <Container>
         <Row>
           <Col size={12}>

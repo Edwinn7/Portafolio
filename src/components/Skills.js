@@ -23,7 +23,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="habilidades">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -44,7 +44,7 @@ export const Skills = () => {
         a 15.9155 15.9155 0 0 1 0 31.831
         a 15.9155 15.9155 0 0 1 0 -31.831"
                     />
-                    <text x="18" y="20.35" class="percentage">90%</text>
+                    <text x="18" y="20.35" class="percentage">80%</text>
                   </svg>
                   <h5>Gestión de base de datos</h5>
                 </div>
@@ -61,7 +61,7 @@ export const Skills = () => {
         a 15.9155 15.9155 0 0 1 0 31.831
         a 15.9155 15.9155 0 0 1 0 -31.831"
                     />
-                    <text x="18" y="20.35" class="percentage">80%</text>
+                    <text x="18" y="20.35" class="percentage">60%</text>
                   </svg>
 
                   <h5>Desarrollo móvil</h5>
@@ -79,7 +79,7 @@ export const Skills = () => {
         a 15.9155 15.9155 0 0 1 0 31.831
         a 15.9155 15.9155 0 0 1 0 -31.831"
                     />
-                    <text x="18" y="20.35" class="percentage">90%</text>
+                    <text x="18" y="20.35" class="percentage">80%</text>
                   </svg>
                   <h5>Desarrollo web</h5>
                 </div>

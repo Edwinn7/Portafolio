@@ -44,9 +44,9 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Habilidades</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projectos</Nav.Link>
+              <Nav.Link href="#inicio" className={activeLink === 'inicio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('inicio')}>Inicio</Nav.Link>
+              <Nav.Link href="#habilidades" className={activeLink === 'habilidades' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('habilidades')}>Habilidades</Nav.Link>
+              <Nav.Link href="#projectos" className={activeLink === 'projectos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projectos')}>Projectos</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <a href="https://github.com/Edwinn7?tab=repositories"><img src={navIcon2} alt="github" /></a>
                 <a href="https://drive.google.com/file/d/1hs-2WRsMD7JBoh-g8KdyjxAJ4Q5iOZu7/view"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='#contacto'>
                 <button className="vvd"><span>Contacto</span></button>
               </HashLink>
             </span>

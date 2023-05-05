@@ -48,7 +48,7 @@ export const Banner = () => {
   }
 
   return (
-    <section className="banner" id="home">
+    <section className="banner" id="inicio">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -58,7 +58,7 @@ export const Banner = () => {
                   <span className="tagline">Bienvenido a mi Portafolio</span>
                   <h1>{`Hola! Soy Edwin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Desarrollador back-end", "Desarrollador web", "Desarrollador móvil" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Persona comprometida y orientada a objetivos con habilidades para colaborar en equipo. Me entusiasma trabajar en entornos dinámicos y desafiantes, siempre en busca de nuevas oportunidades para mejorar tanto personal como profesionalmente. Estoy interesado en explorar nuevas tecnologías y herramientas para estar al día con las últimas tendencias en desarrollo.</p>
-                  <a href="/#connect" style={{ textDecoration: "none" }}><button>Contacto<ArrowRightCircle size={25} /></button></a>
+                  <a href="/#contacto" style={{ textDecoration: "none" }}><button>Contacto<ArrowRightCircle size={25} /></button></a>
                   <a href="https://drive.google.com/file/d/1hs-2WRsMD7JBoh-g8KdyjxAJ4Q5iOZu7/view" style={{ textDecoration: "none" }}><button>Ver currículum<ArrowRightCircle size={25} /></button></a>
                 </div>}
             </TrackVisibility>
