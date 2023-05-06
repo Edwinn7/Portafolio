@@ -43,9 +43,10 @@ export const Projects = () => {
       linkUrl:"https://github.com/Edwinn7/ChatApp"
     },
     {
-      title: "Web de películas y programas de televisión.",
-      description: "Página web que consume la API TMDB Desarrollada con React y Redux",
+      title: "Web de películas",
+      description: "Página web que permite ver informacion general sobre peliculas y programas de tv. (Click para ver en vivo)",
       imgUrl: projImg3,
+      linkUrl:"https://webmovie-c926b.web.app/"
     },
   ];
 
